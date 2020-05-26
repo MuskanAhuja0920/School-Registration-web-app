@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+.form-div
+{
+    margin: 50px auto 50px;
+    padding: 25px 15px 10px 15px;
+    border: 10px solid lightslategray;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-family: 'lora',serif;
+    background-color: #F5EEF8;
+
+}
+
+.form-control:focus
+{
+    box-shadow:none;
+}
+
+.form-div.login{
+    margin-top:100px;
+}
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+    z-index:10;
+    background-color:linen;
+    height:60px;
+	
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+    
+  }
+
+  #nav-bar ul li a:hover
+{
+	color: #007bff;
+}
+  input{
+    margin:5px;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+
+ .btn-default reveal
+ {
+   color:#222c6a;
+   cursor:pointer;
+   margin-left:20px;
+   opacity:0.5;
+
+ }
+ .btn-default reveal:hover{
+   opacity:1;
+
+ }
+
+ .btn-default reveal:active{
+   transform:scale(0.9);
+ }
+ 
+ 
